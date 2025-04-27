@@ -7,8 +7,8 @@ from torchvision import transforms
 from torch.utils.data import DataLoader
 
 # You can modify batch size here
-train_batch_size = 16
-test_batch_size = 16
+train_batch_size = 32
+test_batch_size = 32
 num_workers = 0
 train_size_rate = 0.8   # Split dataset into train and validation 8:2
 

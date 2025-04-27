@@ -12,7 +12,7 @@ from matplotlib.ticker import MaxNLocator
 
 # training parameters
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-epochs = 20
+epochs = 30
 learning_rate = 0.01
 
 # data path and weight path
